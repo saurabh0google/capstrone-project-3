@@ -1,0 +1,21 @@
+NYC fire cases
+
+INTRODUCTION
+
+As there is a rise in fire cases in the New York City and as a Data Scientist I aim to find out a relation between the fire cases and increaing food joints inn the city. A lot of fire originates from the city and hence it is important to analyse the problem.
+This will not only help people to find safer homes but also keep the fire department alerted for any future mishappening.
+We'll use a number of data bases and FOURSQUARE api to determine the food joints and fire risk in an area depending on in ZIP CODE.
+
+
+
+DATA USED
+
+A number of datasets will be used in the Project:
+
+1. Fire DEpartment Dataset (To analyse past fire incidents)
+2. Loaction Database (to extract Coordinates)
+3. FOURSQUARE api (to determine food joints in the proximity of fire effected place)
+
+The fire department dataset have ZIP Code of the affected area.
+This Zip code is matched with the coordinated for plotting
+Also it is used to find the Food joints and cluster them on the bases of how prone they are to fire depending on previous data stored by fire department
